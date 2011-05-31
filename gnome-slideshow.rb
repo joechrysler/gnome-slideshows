@@ -42,7 +42,7 @@ end
 
 files.each_index do |index|
   put_image(files[index])
-  put_transition(files[index], files[index+1]) unless index == files.length
+  put_transition(files[index], files[index+1]) unless index == files.length - 1
   if index == files.length - 1
     put_transition(files[index], files[0])
   end
