@@ -6,6 +6,4 @@ me.
 
 
 ##Usage
-* cp gnome-slideshow.rb to your images folder
-* at the terminal: ruby gnome-slideshow.rb > backgrounds.xml
-* open appearance settings in gnome and set backgrounds.xml as your background.
+./gnome-slideshow.rb "path/to/images/" jpg png bmp etc > background.xml
